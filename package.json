@@ -1,19 +1,14 @@
 {
-  "name": "gyrocap-next-ts",
-  "version": "0.1.0",
+  "name": "todos-list-template-adrianpothuaud",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start -p $PORT",
-    "start:test": "start-server-and-test dev http://localhost:3000 test",
-    "test": "jest --forceExit --detectOpenHandles",
-    "test:debug:watch": "jest --group=debug --watchAll --forceExit --detectOpenHandles",
-    "start:test:debug:watch": "start-server-and-test dev http://localhost:3000 test:debug:watch"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
-    "classnames": "^2.3.2",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
