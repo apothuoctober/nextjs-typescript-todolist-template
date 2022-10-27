@@ -1,7 +1,6 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import React from 'react'
-import { useRef } from 'react'
 import { createGlobalStyle } from 'styled-components'
 
 // CSS reseter global style
@@ -56,8 +55,6 @@ function MyApp({
   Component,
   pageProps,
 }: AppProps) {
-  const m = useRef(new Map())
-
   return (
     <>
       <Head>
